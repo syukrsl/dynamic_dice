@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang=""en">
+<html lang="en">
 <head>
     <meta chartset="UTF-8">
     <meta http-equip="X-UA-Compatible" content=""IE="edge">
@@ -10,5 +10,12 @@
 </head>
 <body>
     <h1>My Dice Machine</h1>
+    <div>
+    <label>Set number of sides:</label>
+    <input id="dice-number" type="number" min="1" placeholder="10"/>
+    </div>
+    <button onclick="rollDice()" >Roll Dice!!</button>
+    <h3>Result:</h3>
+    <h3 id="result"></h3>
 </body>
 </html>
